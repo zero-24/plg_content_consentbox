@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="content" method="upgrade">
+	<name>plg_content_consentbox</name>
+	<creationDate>2018-04-30</creationDate>
+	<author>Tobias Zulauf</author>
+	<copyright>(C) 2018 Tobias Zulauf All rights reserved.</copyright>
+	<authorUrl>https://www.jah-tz.de</authorUrl>
+	<version>1.0.0</version>
+	<license>GNU/GPL Version 2 or later</license>
+	<description>PLG_CONTENT_CONSENTBOX_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<folder>field</folder>
+		<folder>forms</folder>
+		<folder>language</folder>
+		<filename plugin="consentbox">consentbox.php</filename>
+	</files>
+	<updateservers>
+		<server type="extension" name="ConsentBox Update Site">https://raw.githubusercontent.com/zero-24/plg_content_consentbox/master/update.xml</server>
+	</updateservers>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="consent_message"
+					type="radio"
+					label="PLG_CONTENT_CONSENTBOX_CONSENT_MESSAGE_LABEL"
+					description="PLG_CONTENT_CONSENTBOX_CONSENT_MESSAGE_DESC"
+					class="btn-group btn-group-yesno"
+					default="0"
+					filter="integer"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

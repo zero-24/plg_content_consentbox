@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="default">
+		<field
+			name="consentbox"
+			type="privacycheckbox"
+			label="PLG_CONTENT_CONSENTBOX_CONSENTBOX_LABEL"
+			required="true"
+		>
+			<option value="0">PLG_CONTENT_CONSENTBOX_CONSENTBOX_TEXT</option>
+		</field>
+	</fieldset>
+</form>
