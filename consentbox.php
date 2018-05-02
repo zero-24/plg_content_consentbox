@@ -40,6 +40,12 @@ class PlgContentConsentBox extends JPlugin
 	{
 		parent::__construct($subject, $config);
 
+		// Get the application if not done by JPlugin. This will happen with Joomla 2.5.
+		if (!$this->app)
+		{
+			$this->app = JFactory::getApplication();
+		}
+
 		JFormHelper::addFieldPath(__DIR__ . '/field');
 	}
 
