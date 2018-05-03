@@ -25,3 +25,7 @@ There is just one option in the plugin setting where you can decide to include t
 
 Please note that my update server only supports the latest version running the latest version of Joomla and atleast PHP 7.0.
 Any other plugin version I may have added to the download section don't get updates using the update server.
+
+### Beyond this repo
+
+This plugin has been offerd to the Joomla Core to be part of the upcomming Privacy Framework. For that reason the plugin was rewritten and renamed to plg_content_consentboxes for to the needs of the core distribution. The current progress can be found here: https://github.com/joomla-projects/privacy-framework/pull/12
