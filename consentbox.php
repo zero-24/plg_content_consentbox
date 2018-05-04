@@ -85,7 +85,7 @@ class PlgContentConsentBox extends JPlugin
 	 */
 	public function onSubmitContact(&$contact, &$data)
 	{
-		if ($this->params->get('consent_message', 0) === 1)
+		if ($this->params->get('consent_message', 0) == 1)
 		{
 			$data['contact_message'] .= "\r\n\r\n";
 			$data['contact_message'] .= '--------';
