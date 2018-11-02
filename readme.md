@@ -1,3 +1,5 @@
+# IMPORTANT NOTE: This Plugin is discontinued as this plugin has now been implementd in the Joomla Core with Joomla 3.9.0 as Content - ConfirmConsent
+
 # ConsentBox Plugin
 
 This plugin adds a consent checkbox to the Joomla Core contacts extension
